@@ -1,5 +1,7 @@
 # Ressie
 
+[![Ressie Icon][ressie-icon]]
+
 [![NPM Version][npm-image]][npm-url] [![NPM Total Downloads][npm-downloads]][npm-url] [![npm bundle size (minified + gzip)][size-image]][npm-url]
 
 > Your server assistant.
@@ -80,3 +82,4 @@ Bellboy icon made by [Eucalyp](https://www.flaticon.com/authors/eucalyp) from [w
 [npm-downloads]: https://img.shields.io/npm/dt/ressie.svg
 [npm-url]: https://www.npmjs.com/package/ressie
 [size-image]: https://img.shields.io/bundlephobia/minzip/ressie.svg
+[ressie-icon]: https://github.com/alexlee-dev/ressie/raw/master/icon.png
