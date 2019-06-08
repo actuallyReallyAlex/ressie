@@ -21,7 +21,7 @@ yarn add ressie
 ## Usage
 
 ```js
-import Ressie from './index'
+import Ressie from 'ressie'
 
 new Ressie({
   port: 5000,

@@ -28,7 +28,7 @@
   },
   "files": [
     "lib/index.js",
-    "lib/Server.js",
+    "lib/Ressie.js",
     "LICENSE",
     "README.md"
   ],
