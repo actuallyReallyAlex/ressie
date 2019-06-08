@@ -1,7 +1,7 @@
 {
   "name": "ressie",
   "version": "0.1.0",
-  "description": "A simple API to read and write files.",
+  "description": "Your server assistant.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
