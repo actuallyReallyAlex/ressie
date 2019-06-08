@@ -20,10 +20,40 @@ yarn add ressie
 
 ## Usage
 
+### Minimal Setup
+
 ```js
 import Ressie from 'ressie'
 
 new Ressie({
+  routes: [
+    {
+      method: 'get',
+      path: '/',
+      handler: (req, res, next) => {
+        res.send({ result: 'success' })
+      }
+    }
+  ]
+})
+
+// Output: "Server is listening on port 5000 ..."
+```
+
+### Extended Setup
+
+```js
+import Ressie from 'ressie'
+
+new Ressie({
+  middleware: [
+    {
+      name: 'morgan',
+      options: {
+        format: 'dev'
+      }
+    }
+  ],
   port: 5000,
   routes: [
     {
