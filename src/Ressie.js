@@ -8,9 +8,9 @@ class Ressie {
 
     const app = express()
 
-    this.routes.forEach(({ method, path, handler }) => {
+    this.routes.forEach(({ method, path, handler }) =>
       app[method](path, handler)
-    })
+    )
 
     app.listen(port, () => {
       console.log(chalk.green(`Server is listening on port ${port} ...`))

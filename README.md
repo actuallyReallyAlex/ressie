@@ -34,8 +34,10 @@ new Ressie({
       }
     }
   ]
-  // * Other options
+  // * Other options TBD
 })
+
+// Output: "Server is listening on port 5000 ..."
 ```
 
 [npm-image]: https://img.shields.io/npm/v/ressie.svg
