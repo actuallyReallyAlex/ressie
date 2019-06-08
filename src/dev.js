@@ -1,6 +1,6 @@
-import Server from './index'
+import Ressie from './index'
 
-new Server({
+new Ressie({
   port: 5000,
   routes: [
     {
