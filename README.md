@@ -1,6 +1,6 @@
 # Ressie
 
-[![Ressie Icon][ressie-icon]]
+![Ressie Icon][ressie-icon]
 
 [![NPM Version][npm-image]][npm-url] [![NPM Total Downloads][npm-downloads]][npm-url] [![npm bundle size (minified + gzip)][size-image]][npm-url]
 
