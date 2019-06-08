@@ -1,7 +1,7 @@
 import express from 'express'
 import chalk from 'chalk'
 
-class Server {
+class Ressie {
   constructor({ port, routes }) {
     this.port = port
     this.routes = routes
@@ -18,4 +18,4 @@ class Server {
   }
 }
 
-export default Server
+export default Ressie

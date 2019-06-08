@@ -1,3 +1,3 @@
-import Server from './Server'
+import Ressie from './Ressie'
 
-module.exports = Server
+module.exports = Ressie
