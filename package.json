@@ -20,7 +20,8 @@
     "@babel/preset-env": "^7.4.5",
     "chalk": "^2.4.2",
     "express": "^4.17.1",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0"
   },
   "scripts": {
     "build": "babel src -d lib",
@@ -30,6 +31,7 @@
   "files": [
     "lib/index.js",
     "lib/Ressie.js",
+    "lib/favicon.ico",
     "LICENSE",
     "README.md"
   ],

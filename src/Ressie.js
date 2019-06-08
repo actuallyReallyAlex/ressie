@@ -1,5 +1,7 @@
 import express from 'express'
 import morgan from 'morgan'
+import favicon from 'serve-favicon'
+import path from 'path'
 import chalk from 'chalk'
 
 class Ressie {
@@ -26,6 +28,8 @@ class Ressie {
     ]
 
     const app = express()
+
+    app.use(favicon(path.join(__dirname, 'favicon.ico')))
 
     this.middleware.forEach(({ name, options }) => {
       const middleware = this.middlewarePackages.find(

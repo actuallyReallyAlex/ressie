@@ -70,6 +70,12 @@ new Ressie({
 // Output: "Server is listening on port 5000 ..."
 ```
 
+## Attribution
+
+### Icon
+
+Bellboy icon made by [Eucalyp](https://www.flaticon.com/authors/eucalyp) from [www.flaticon.com](https://www.flaticon.com/) and is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).
+
 [npm-image]: https://img.shields.io/npm/v/ressie.svg
 [npm-downloads]: https://img.shields.io/npm/dt/ressie.svg
 [npm-url]: https://www.npmjs.com/package/ressie
