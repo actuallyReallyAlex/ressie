@@ -1,0 +1,40 @@
+{
+  "name": "ressie",
+  "version": "0.0.0",
+  "description": "A simple API to read and write files.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlee-dev/ressie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexlee-dev/ressie/issues"
+  },
+  "homepage": "https://github.com/alexlee-dev/ressie/",
+  "author": "Alex Lee <alex@alex-lee.site>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "chalk": "^2.4.2",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "node lib/index.js",
+    "dev": "node lib/dev.js"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/Server.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "server",
+    "express",
+    "api"
+  ]
+}
