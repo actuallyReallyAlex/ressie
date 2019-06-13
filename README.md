@@ -1,12 +1,37 @@
-# Ressie
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=256px height=256px src="https://github.com/alexlee-dev/ressie/raw/master/ressie.png" alt="Ressie logo"></a>
+</p>
 
-![Ressie Icon][ressie-icon]
+<h3 align="center">Ressie</h3>
 
-[![NPM Version][npm-image]][npm-url] [![NPM Total Downloads][npm-downloads]][npm-url] [![npm bundle size (minified + gzip)][size-image]][npm-url]
+<div align="center">
 
-> Your server assistant.
+[![NPM Version][npm-image]][npm-url] [![NPM Total Downloads][npm-downloads]][npm-url] [![npm bundle size (minified + gzip)][size-image]][npm-url] [![Coverage Status](https://coveralls.io/repos/github/alexlee-dev/ressie/badge.svg?branch=master)](https://coveralls.io/github/alexlee-dev/ressie?branch=master) [![Build Status](https://travis-ci.org/alexlee-dev/ressie.svg?branch=master)](https://travis-ci.org/alexlee-dev/ressie.svg?branch=master)
 
-## Installation
+</div>
+
+---
+
+<p align="center"> A React Navbar/Sidebar combo component.
+    <br> 
+</p>
+
+## 📝 Table of Contents
+
+- [About](#about)
+- [Installing](#installing)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [Todo](#todo)
+- [Author](#author)
+- [Acknowledgments](#acknowledgement)
+
+## 🧐 About <a name="about"></a>
+
+Your server assistant.
+
+## 📦 Installing <a name="installing"></a>
 
 ### NPM
 
@@ -20,7 +45,7 @@ npm install ressie
 yarn add ressie
 ```
 
-## Usage
+## 🎈 Usage <a name="usage"></a>
 
 ### Minimal Setup
 
@@ -72,14 +97,22 @@ new Ressie({
 // Output: "Server is listening on port 5000 ..."
 ```
 
-## Attribution
+## ⛏️ Built Using <a name="built_using"></a>
 
-### Icon
+- [Express](https://expressjs.com/) - Web Framework for Node.js
 
-Bellboy icon made by [Eucalyp](https://www.flaticon.com/authors/eucalyp) from [www.flaticon.com](https://www.flaticon.com/) and is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).
+## ✏️ TODO <a name="todo">
+
+## ✍️ Author <a name="author"></a>
+
+- [Alex Lee](https://github.com/alexlee-dev) - Developer
+
+## 🎉 Acknowledgements <a name="acknowledgement"></a>
+
+- Icon made by [Eucalyp](https://www.flaticon.com/authors/eucalyp) from [www.flaticon.com](https://www.flaticon.com/) and is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).
 
 [npm-image]: https://img.shields.io/npm/v/ressie.svg
 [npm-downloads]: https://img.shields.io/npm/dt/ressie.svg
 [npm-url]: https://www.npmjs.com/package/ressie
 [size-image]: https://img.shields.io/bundlephobia/minzip/ressie.svg
-[ressie-icon]: https://github.com/alexlee-dev/ressie/raw/master/icon.png
+[ressie-icon]: https://github.com/alexlee-dev/ressie/raw/master/ressie.png
