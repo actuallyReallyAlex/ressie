@@ -26,7 +26,10 @@
   "scripts": {
     "build": "babel src -d lib",
     "start": "node lib/index.js",
-    "dev": "node lib/dev.js"
+    "dev": "node lib/dev.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "files": [
     "lib/index.js",
@@ -39,5 +42,10 @@
     "server",
     "express",
     "api"
-  ]
+  ],
+  "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "coveralls": "^3.0.4",
+    "jest": "^24.8.0"
+  }
 }
